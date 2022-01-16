@@ -1,0 +1,67 @@
+.container {
+  width: 380px;
+  height: 550px;
+  margin: auto;
+  box-shadow: 2px 2px 5px 2px gray;
+  z-index: 1;
+  border-radius: 6px;
+  /* background-color: rgba(0, 0, 0, 0.171); */
+  background-color: black;
+}
+.basic{
+  font-family:Arial Black;
+  color: white;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.ans {
+  height: 100px;
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+
+}
+
+.numeric-btn button {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.plus-btn {
+  height: 140px;
+  margin-bottom: 20px;
+}
+.plus-btn > button {
+  height: 140px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.last-row button {
+  width: 70px;
+  height: 70px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.equal-btn {
+  width: 176px;
+}
+.equal-btn > button {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 600;
+}
+input {
+  outline: none;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 600;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  text-align: right;
+}
+
