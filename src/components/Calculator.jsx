@@ -65,7 +65,7 @@ export const Calculator = () => {
                 <button className="btn btn-danger" onClick={()=>dispatch(loadButton(2))}>2</button>
               </div>
               <div className="col-4">
-                <button className="btn btn-danger" onClick={()=>dispatch(loadButton(0))}>1</button>
+                <button className="btn btn-danger" onClick={()=>dispatch(loadButton(1))}>1</button>
               </div>
             </div>
           </div>
